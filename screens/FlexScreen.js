@@ -43,6 +43,9 @@ export default function FlexScreen({ navigation }) {
                 <TouchableOpacity onPress={() => navigation.navigate('Ex12Screen')} >
                     <Text style={{ padding: 10 }}>Ex12</Text>
                 </TouchableOpacity>
+                <TouchableOpacity onPress={() => navigation.navigate('Ex13Screen')} >
+                    <Text style={{ padding: 10 }}>Ex13</Text>
+                </TouchableOpacity>
                 <TouchableOpacity onPress={() => navigation.navigate('ExspecialScreen')} >
                     <Text style={{ padding: 10 }}>Exspecial</Text>
                 </TouchableOpacity>

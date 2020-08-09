@@ -15,6 +15,7 @@ import Ex09Screen from '../screens/Ex09Screen';
 import Ex10Screen from '../screens/Ex10Screen';
 import Ex11Screen from '../screens/Ex11Screen';
 import Ex12Screen from '../screens/Ex12Screen';
+import Ex13Screen from '../screens/Ex13Screen';
 import ExspecialScreen from '../screens/ExspecialScreen';
 // import FlexStack from '../navigations/FlexStack';
 import { createStackNavigator } from '@react-navigation/stack';
@@ -89,7 +90,12 @@ export default function FlexStack() {
             <Stack.Screen
                 name="Ex12Screen"
                 component={Ex12Screen}
-                options={{ title: 'Ex0112Screen' }}
+                options={{ title: 'Ex012Screen' }}
+            />
+            <Stack.Screen
+                name="Ex13Screen"
+                component={Ex13Screen}
+                options={{ title: 'Ex13Screen' }}
             />
             <Stack.Screen
                 name="ExspecialScreen"
