@@ -3,7 +3,7 @@ import BmiScreen from '../screens/BmiScreen';
 import NetworkScreen from '../screens/NetworkScreen';
 import HomeScreen from '../screens/HomeScreen';
 import { createStackNavigator } from '@react-navigation/stack';
-
+import MidtermFirstScreen from '../screens/MidtermFirstScreen';
 
 const Stack = createStackNavigator();
 
@@ -26,6 +26,13 @@ export default function HomeStack() {
                 component={NetworkScreen}
                 options={{ title: 'Network Screen Title' }}
             />
+            <Stack.Screen
+                name="MidtermFirstScreen"
+                component={MidtermFirstScreen}
+                options={{ title: 'Midterm First Screen Title' }}
+            />
+
+
 
         </Stack.Navigator>
     );
