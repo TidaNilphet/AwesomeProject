@@ -9,6 +9,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import MidtermTopTab from './navigations/MidtermTopTab';
 import MidtermFirstScreenTitle from './navigations/MidtermTopTab';
 import TodoTab from './navigations/TodoTab';
+import { fb } from './db_config';
 const RootStack = createStackNavigator();
 
 export default function App() {
